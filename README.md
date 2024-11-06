@@ -4,11 +4,11 @@ This repository contains an implementation of a parallel algorithm for multiplyi
 
 ## Content
 * A standard parallel algorithm for sparse matrix multiplication.
-* More effective algorithm from the article, built on top of the previous one.
-* Report benchmarking and comparing performance of the solutions above.
+* More effective algorithm based on the article, built on top of the standard approach.
+* A report benchmarking and comparing the performance of both solutions.
 
 ## How to run
-You have to have access to the cluster managed by Slurm. Then use
+You need access to a cluster managed by Slurm. Then use
 ```
 mkdir build; cd build; cmake ..; make
 srun ./matmul [-a sparse_matrix_file_a] [-b sparse_matrix_file_b] [-v] [-g g_value] [-t 2D|3D|balanced] [-l value] 
