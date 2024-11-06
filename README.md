@@ -1,4 +1,4 @@
-## Communication-Efficient Sparse Matrix Multiplication
+## Communication-Efficient Sparse Matrix Multiplication Using OpenMPI
 
 This repository contains an implementation of a parallel algorithm for multiplying two sparse matrices A and B, based on the approach detailed in [this article](https://arxiv.org/pdf/2010.08526). The solution uses Open MPI library, designed for high-performance computing.
 
