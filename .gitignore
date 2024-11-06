@@ -1,0 +1,12 @@
+matmul
+
+test/*
+tests/*
+testerka/*
+hpc-mpi-testy/*
+hpc-mpi-testy
+
+CMakeCache.txt
+CMakeFiles/*
+Makefile
+cmake_install.cmake
